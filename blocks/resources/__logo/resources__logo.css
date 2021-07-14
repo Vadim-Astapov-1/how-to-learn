@@ -1,4 +1,13 @@
 .resources__logo {
   width: 270px;
   height: 38px;
+  opacity: 1;
+  transition: opacity 0.6s;
+  /* В этом дисплее секрет, надо обдумать */
+  display: block;
 }
+
+.resources__logo:hover {
+  opacity: 0.7;
+}
+

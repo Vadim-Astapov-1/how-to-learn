@@ -3,6 +3,9 @@
   margin: auto;
   margin-top: 80px;
   margin-bottom: 217px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
+
