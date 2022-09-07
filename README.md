@@ -4,7 +4,7 @@
 
 **Адрес страницы:** https://vadim-astapov-1.github.io/how-to-learn
 
-картинка
+![how-to-lern](https://user-images.githubusercontent.com/86553552/188822583-e68ce37a-c494-4ee8-b992-10863b541601.png)
 
 ## Технологии
 
