@@ -3,8 +3,6 @@
   display: flex;
 }
 
-/*Чтобы заменить оступ со 100px на 160px*/
-
 .oakley .two-columns:only-child {
   margin-top: 160px;
 }

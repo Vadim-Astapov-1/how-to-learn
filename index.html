@@ -7,10 +7,7 @@
   <title>Научиться учиться</title>
 </head>
 <body>
-  <!-- Ссылки можно писать target="_blank" чтобы они открывались в новом окне -->
   <div class="page">
-    <!-- Иерархия тега h нужна всегда;
-    h1 - только один на странице -->
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
@@ -18,7 +15,6 @@
         Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
         <a class="header__link" href="#" target="_blank">Узнать &rarr;</a>
-        <!-- Знаки лучше писать как мемоники &#8594; или чтобы лучше запоминать &rarr; -->
       </p>
       <div class="rotation header__square-pic"></div>
       <img src="./images/header-image.png" alt="Опять двойка" class="header__main-illustration">
@@ -27,7 +23,6 @@
       <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
-          <!-- Тут тоже списки не нужны были... - div и внутри параграфы -->
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               Ни в школе, ни в институте нас не учат тому, как правильно
@@ -56,7 +51,6 @@
           <li class="cards__item">
             <img src="./images/cards-attention.png" alt="Внимание" class="cards__image">
             <h3 class="cards__title">Два вида внимания</h3>
-            <!-- Добавил br, чтобы выглядело как на макете -->
             <p class="cards__description">
               Глубокие знания возникают, если чередовать сфокусированное
               и рассеянное мышление.
@@ -141,11 +135,8 @@
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
-        <!-- Таблицу не надо было закрывать в div и ячейки делать ul. Таблица
-        и есть список ul с ячейками li и прописанными внутри параграфами -->
         <ul class="table">
           <li class="table__cell">
-            <!-- Пустые параграфы не нужны-->
             <h3 class="table__heading">86 миллиардов</h3>
             <p class="table__text">Число нейронов в мозге человека</p>
           </li>
@@ -193,7 +184,6 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <!-- Цитаты blockquote -->
           <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс
             обучения миллионов студентов по всему миру.
@@ -300,7 +290,6 @@
         </div>
         <div class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
-          <!-- Последние две колонны являются навигицией, тегом - nav-->
           <nav class="footer__column-links">
             <a class="footer__column-link" href="#"  target="_blank">Главная</a>
             <a class="footer__column-link" href="#"  target="_blank">Концепция</a>
@@ -317,8 +306,6 @@
             <a class="footer__column-link" href="#"  target="_blank">
               <img src="./images/vk_color_white.svg" alt="icon-vkontakte" class="footer__social-icon">
               ВКонтакте
-              <!-- alt надо писать на языке страницы,
-              тоетсть на англ vkontakte(правильно)-вконтакте(неправильно) -->
             </a>
             <a class="footer__column-link" href="#"  target="_blank">
               <img src="./images/instagram_color_white.svg" alt="icon-instagram" class="footer__social-icon">

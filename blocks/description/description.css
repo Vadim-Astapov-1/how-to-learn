@@ -1,6 +1,5 @@
 .description {
   margin: auto;
-  /*margin: auto надо писать выше margin: top иначе блок не будет центрироваться*/
   display: flex;
   flex-direction: column;
 }
