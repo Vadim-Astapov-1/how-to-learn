@@ -12,6 +12,21 @@
 
 - CSS
 
+## Структура
+
+1. page
+    - header
+    - main
+        - section - description
+        - section - techniques
+        - section - video
+        - section - oakley
+        - section - feynman
+        - section - khan
+        - section - kaufman
+        - section - resources
+    - footer
+
 ## Примечания
 
 - БЭМ
